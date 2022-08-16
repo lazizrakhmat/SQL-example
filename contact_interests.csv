@@ -1,3 +1,2 @@
-"id","contact_id","interest_id"
-1,4,1
-2,4,5
+
+SELECT * FROM contact_interests
