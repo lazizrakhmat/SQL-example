@@ -77,7 +77,7 @@ Bu yerda asosiy DATABASE <contacts.csv>. Tog'ri dizayin bo'lishi uchun yo'riqnom
 ### Aslida biz nima qildik 1 ta TABLE 'ni 5 ta TABLE 'ga ajtratib oldik, sababi TRUE DESIGN qilganimiz bois
     https://app.diagrams.net/#G164HfPSOm9rrFMSgUE4StscDax5bImlVX
    
-Bu link'da siz relitionship'larni qnday turda bog'langanini ko'rasiz,( goodreads )
+Bu link'da siz relitionship'larni qanday turda bog'langanini ko'rasiz,( goodreads )
 saytini kichkina qismini DESIGN qilib ko'rdik.
  
 
