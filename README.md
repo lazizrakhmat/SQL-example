@@ -4,9 +4,9 @@ Ushbu repositoriyda SQL darslariga oid kodlar jamlangan.
 Asosan 3 xil turda bo'g'lanish bo'ladi, DUPLICATE'larni olidini olish uchun.
 Boshqacha bo'lishiham mumkin !
 
-1) ONE TO ONE
-2) MANY TO MANY
-3) ONE TO MANY
+1) ONE TO MANY
+2) ONE TO ONE
+3) MANY TO MANY
 
 Bu yerda asosiy DATABASE <contacts.csv>. Tog'ri dizayin bo'lishi uchun yo'riqnoma 
 
@@ -23,7 +23,12 @@ Bu yerda asosiy DATABASE <contacts.csv>. Tog'ri dizayin bo'lishi uchun yo'riqnom
    berdik. Bu bizga bitta contact'ga 2 marta value berishdan saqlaydi. Bu esa to'g'ri DESIGN qilganimizni
    anglatadi. ( One to one )
 
-4. ONE TO ONE qachon ishlatiladi ?
+4. ONE TO MANY nima ?
+   
+   Jadvalda ko'rishingiz mumkin bizda 1 ta contact'da 1 ta profession bor,
+   A 1 ta profession'da ko'pgina contact bo'lishi mumkin. 
+
+5. ONE TO ONE qachon ishlatiladi ?
    
    * Tezroq query yozish uchun 
    * Security tarafdan 
@@ -39,7 +44,7 @@ Bu yerda asosiy DATABASE <contacts.csv>. Tog'ri dizayin bo'lishi uchun yo'riqnom
     >>    INSERT INTO contact_salary (amount, contact_id) VALUES (300, 1);
         
 
-5. MANY TO MANY 
+6. MANY TO MANY 
    
    Nima uchun Many To Many ?
       
