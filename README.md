@@ -56,8 +56,8 @@ Bu yerda asosiy DATABASE <contacts.csv>. Tog'ri dizayin bo'lishi uchun yo'riqnom
    si ni olib FK qilib yangi TABLE'ga < contact_interest > bo'glaymiz . 
 
    < contact_interest> ni ichida 
-    FK * contact_id
-    FK * interest_id 
+    (FK) contact_id
+    (FK) interest_id 
 
     #ExampleCode
      >>   CREATE TABLE interests (
